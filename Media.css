@@ -1,0 +1,299 @@
+@media screen and (max-width: 500px) {
+    .Body {
+        font-family: "Raleway", sans-serif;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+/* .......................Header..................... */
+
+    .Bloc_Header {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .Logo {
+        padding-left: 2%;
+    }
+    .Inscription {
+        position: absolute;
+        top: 60px; right: 35px;
+        width: 20px;
+    }
+    .Nav {
+        width: 110%;
+        margin-left: -20px;
+    }
+    .Nav ul {
+        width: 492px;
+        margin: 0;
+    }
+    .Nav li {
+        width: 50%;
+        border-bottom: 3px solid #f1f1f1;
+    }
+    .Nav ul a {
+        width: 100%;
+    }
+    .Nav ul a:hover {
+        border-bottom: 3px solid #0065FC;
+        border-top: none;
+    }
+
+/* ......................Recherche.................... */
+
+    
+    .Bloc_Research {
+        padding-left: 4%;
+        width: 100%;
+    }
+
+/* ..........Title........ */
+    
+    .TitleResearch {
+        width: 300px;
+    }
+    .TitleResearch h1 {
+        font-size: 1.4em;
+        margin-bottom: 15px;
+    }
+    .TitleResearch p {
+        font-size: 1.05em;
+        margin-bottom: 35px;
+    }
+    .NavResearch p {
+        width: 300px;
+        font-size: 1.2em;
+    }
+    
+/* ..........Form........... */
+
+    .FormResearch {
+        padding-left: 2%;
+        margin-bottom: 20px;
+    }
+    .Loca {
+        width: 15%;
+    }
+    .FormResearch input {
+        width: 75%;
+    }
+    .FormResearch span {
+        display: none;
+    }
+    .Btn {
+        position: absolute;
+        right: 20px;
+        width: 50px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+    .Btn i {
+        display: block;
+    }
+
+/* .........Filtres.......... */
+
+    .NavResearch {
+        width: 100%;
+    }
+    .NavResearch p {
+        width: 100%;
+        padding-left: 2%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .NavResearch li {
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+    .FooterResearch {
+        width: 340px;
+        margin-top: 15px;
+    }
+
+/* ............................SectionHebergement........................ */
+
+    .Bloc_Lod {
+        width: 100%;
+    }
+    .SectionLodging {
+        background: #fff;
+        order: 2;
+        margin-left: 0;
+        width: 100%;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+    #Hébergements {
+        padding-left: 5%;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .LodgingCards {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+    .Lod {
+        width: 100%;
+        margin-left: 5%;
+        box-shadow: 2px 5px 10px #f1f1f1;
+    }
+    .ImgL{
+        width: 97%;
+        margin: 5px;
+        margin-bottom: 0;
+    }
+    .Desc_Lod {
+        padding-left: 15px;
+    }
+    .Desc_Lod h3 {
+        font-size: 1.7em;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .Desc_Lod p {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .Plus {
+        margin-left: 5%;
+    }
+
+/* ............................MostPop................................ */
+
+    .Section_Most_Popular {
+        order: 1;
+        margin-left: 0;
+        padding-bottom: 30px;
+        width: 100%;
+        padding-left: 0;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+    .Title_MostPop {
+        width: 100%;
+        padding-left: 0;
+    }
+    .Title_MostPop h2 {
+        padding-left: 5%;
+        padding-bottom: 25px;
+        font-size: 1.35em;
+    }
+    .Title_MostPop i {
+        padding-top: 10%;
+        padding-left: 5%;
+    }
+    .PopCards {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: 0;
+    }
+    .Pop {
+        width: 100%;
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .ImgMP {
+        margin-right: 5%;
+        width: 50%;
+    }
+    .Desc_Pop {
+        padding: 0;
+    }
+    .Desc_Pop_2 {
+        font-size: .58em;
+    }
+    .Desc_Pop h2 {
+        font-size: 1.7em;
+        margin-top: 10px;
+        margin-bottom: 0;
+        width: 80%;
+    }
+    .Desc_Pop p {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+/* ..........................Activités............................... */
+
+    .SectionActivity {
+        width: 100%;
+    }
+    #Activités {
+        padding-left: 5%;
+        margin-bottom: 25px;
+    }
+    .ActCards {
+        display: flex;
+        justify-content: center;
+    }
+    .Simple {
+        width: 90%;
+        margin-bottom: 25px;
+    }
+    .SpaceS {
+        margin-left: 0;
+    }
+    .SpaceD {
+        margin-bottom: 25px;
+    }
+    .Simple a {
+        margin-right: 0;
+    }
+    .Double {
+        width: 90%;
+        margin-bottom: 0px;
+    }
+    .ImgAct {
+        background-size: 100%;
+        height: 150px;
+        width: 100%;
+    }
+    .Act_Img_1 {
+    background-position: top;
+    }
+    .Act_Img_2 {
+        background-position: 20% 40%;
+    }
+    .Act_Img_3 {
+        background-position: 20% 0%;
+    }
+    .Act_Img_4 {
+        background-position: 0% 5%;
+    }
+    .Act_Img_5 {
+        background-position: left 0 top 0;
+    }
+    .Act_Img_6 {
+        background-position: 20% 16%;
+    }
+    .Desc_Act {
+        width: 100%;
+    }
+
+/* ......................Footer................................ */
+
+    .Bloc_Footer {
+        display: flex;
+        flex-direction: column;
+        padding-left: 6%;
+        margin-top: 0;
+    }
+}

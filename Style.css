@@ -276,7 +276,7 @@
 
 .Lod {
     width: 225px;
-    margin: 0 20px 20px 0;
+    margin: 0 30px 30px 0;
     background: White;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -341,7 +341,7 @@
 .fa-star {
     color: #0065FC;
     font-size: 1.2em;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 .Plus {
     padding: 4%;
@@ -469,4 +469,130 @@
 .Grey {
     color: rgb(192, 192, 192);
     padding-bottom: 0;
+}
+
+/* ....................Activitées.............. */
+
+.Bloc_Activites {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    width: 100%;
+}
+#Activités {
+    padding-left: 4%;
+    margin-top: 0;
+    width: 100%;
+}
+.ActCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* .........Act.......... */
+
+.Simple a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    margin-right: 40px;
+} 
+.Double {
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+.Double a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.SpaceD {
+    margin-bottom: 50px;
+}
+.SpaceS {
+    margin-left: 40px;
+}
+.Act_Img_1 {
+    background-image: url(Img/Activity/Act1.jpg);
+    background-size: 240%;
+    background-repeat: no-repeat;
+    background-position: bottom -40px left -200px;
+    border-radius: 20px 20px 0 0;
+    width: 280px;
+    height: 400px;
+}
+.Act_Img_2 {
+    background-image: url(Img/Activity/Act2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px 20px 0 0;
+    width: 280px;
+    height: 150px;
+}
+.Act_Img_3 {
+    background-image: url(Img/Activity/Act3.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: top -0px left -10px;
+    border-radius: 20px 20px 0 0;
+    width: 280px;
+    height: 150px;
+}
+.Act_Img_4 {
+    background-image: url(Img/Activity/Act4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px 20px 0 0;
+    width: 280px;
+    height: 400px;
+    -webkit-border-radius: 20px 20px 0 0;
+    -moz-border-radius: 20px 20px 0 0;
+    -ms-border-radius: 20px 20px 0 0;
+    -o-border-radius: 20px 20px 0 0;
+}
+.Act_Img_5 {
+    background-image: url(Img/Activity/Act5.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: bottom -68px left -20px;
+    border-radius: 20px 20px 0 0;
+    width: 280px;
+    height: 150px;
+}
+.Act_Img_6 {
+    background-image: url(Img/Activity/Act6.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: top -30px left -2px ;
+    border-radius: 20px 20px 0 0;
+    width: 280px;
+    height: 150px;
+}
+.Desc_Act {
+    width: 280px;
+    height: 55px;
+    font-size: 11px;
+    color: #000;
+    box-shadow: 2px 5px 10px #f1f1f1;
+    border-radius: 0 0 15px 15px;
+    -webkit-border-radius: 0 0 15px 15px;
+    -moz-border-radius: 0 0 15px 15px;
+    -ms-border-radius: 0 0 15px 15px;
+    -o-border-radius: 0 0 15px 15px;
+}
+.Desc_Act p {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 0;
 }

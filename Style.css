@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(Font/Raleway.woff2) format("woff2");
+    src: url(Font/Raleway.woff) format("woff");
+    src: url(Font/Raleway.eot) format("eot");
+    src: url(Font/Raleway.ttf) format("ttf");
+    src: url(Font/Raleway.svg) format("svf");
+}
+* { 
+    box-sizing: border-box;
+}
+.Body {
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+}
+
+/* ....................Header.................... */
+
+.Bloc_Header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3.5%;
+    height: 80px;
+}
+.Logo {
+    margin-top: 45px;
+    height: 45px;
+}
+.Nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 80px;
+    padding-right: 2%;
+}
+.Nav ul {
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    height: 80px;
+    margin-right: -20px;
+    list-style-type: none;
+}
+.Nav li {
+    display: flex;
+    width: 150px;
+    margin-right: -10px;
+}
+.Nav a {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    width: 150px; 
+    height: 80px;
+}
+.Nav a:hover {
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+}
+.Inscription {
+    width: 150px;
+    text-align: center;
+}
+.Inscription a {
+    color: #0065FC;
+    text-decoration: none;
+}

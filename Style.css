@@ -8,9 +8,9 @@
 }
 * { 
     box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
 }
 .Body {
-    font-family: "Raleway", sans-serif;
     box-sizing: border-box;
     width: 100%;
     margin: 0;
@@ -69,4 +69,167 @@
 .Inscription a {
     color: #0065FC;
     text-decoration: none;
+}
+
+/* ....................Recherche.................... */
+
+.Bloc_Research {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 4%;
+}
+
+/* ..........Title.......... */
+
+.TitleResearch {
+    width: 100%;
+}
+.TitleResearch h1 {
+    margin: 50px 0 10px 0;
+    font-size: 1.25em;
+    width: 100%;
+}
+.TitleResearch p {
+    margin: 0 0 20px 0;
+    font-size: .92em;
+}
+
+/* ..........Form.......... */
+
+.FormResearch {
+    display: flex;
+    margin-bottom: 30px;
+}
+.FormResearch i {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 50px;
+    background: #f1f1f1;
+    border-radius: 15px 0 0 15px;
+    -webkit-border-radius: 15px 0 0 15px;
+    -moz-border-radius: 15px 0 0 15px;
+    -ms-border-radius: 15px 0 0 15px;
+    -o-border-radius: 15px 0 0 15px;
+}
+.FormResearch input {
+    border: 1px solid #f1f1f1;
+    width: 16%;
+    height: 50px;
+}
+.Btn {
+    height: 50px;
+    width: 120px;
+    border: none;
+    background: #0065FC;
+    color: #F2F2F2;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0 15px 15px 0;
+    -webkit-border-radius: 0 15px 15px 0;
+    -moz-border-radius: 0 15px 15px 0;
+    -ms-border-radius: 0 15px 15px 0;
+    -o-border-radius: 0 15px 15px 0;
+}
+.Btn p {
+    margin-top: 14px;
+}
+.Btn i {
+    display: none;
+}
+
+/* ..........Nav.......... */
+
+.NavResearch {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+}
+.NavResearch p {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1em;
+    font-weight: bolder;
+    align-items: center;
+    margin: 0;
+    height: 45px;
+}
+.NavResearch ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.NavResearch li {
+    font-family: "Raleway", sans-serif;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f1f1f1;
+    height: 45px;
+    font-weight: bolder;
+    margin-left: 40px;
+    padding: 10px 20px 10px 40px;
+    border-radius: 50px 50px 50px 50px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 50px 50px 50px 50px;
+    -ms-border-radius: 50px 50px 50px 50px;
+    -o-border-radius: 50px 50px 50px 50px;
+}
+.NavResearch i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -10px;
+    top: -1.5px;
+    background: #DEEBFF;
+    color: #0065FC;
+    font-size: large;
+    text-align: center;
+    width: 40px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 15px 15px 15px 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.NavResearch li:hover {
+    color: #0065FC;
+    background: #DEEBFF;
+    border-top: 1px solid #0065FC;
+    cursor: pointer;
+}
+.FooterResearch {
+    display: flex;
+    margin-bottom: 40px;
+    font-size: .95em;
+}
+.FooterResearch i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    border: 1px solid rgb(201, 199, 199);
+    height: 20px;
+    width: 5px;
+    padding-right: 10px;
+    margin-right: 5px;
+    color: #0065FC;
+    background: #DEEBFF;
+    font-size: 12px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }

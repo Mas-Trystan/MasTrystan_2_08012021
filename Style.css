@@ -211,6 +211,7 @@
 }
 .FooterResearch {
     display: flex;
+    margin-top: 35px;
     margin-bottom: 40px;
     font-size: .95em;
 }
@@ -232,4 +233,240 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+/* ....................Hebergement.............. */
+
+.Bloc_Lod {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.SectionLodging {
+    display: flex;
+    flex-wrap: wrap;
+    background: #f2f2f2;
+    width: 61.5%;
+    margin-left: 3%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+#Hébergements {
+    margin-bottom: 15px;
+    padding-top: 20px;
+    padding-left: 4%;
+    font-size: 1.35em;
+}
+.SectionLodging a {
+    color: #000;
+    text-decoration: none;
+}
+.LodgingCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* ..........Lod.......... */
+
+.Lod {
+    width: 225px;
+    margin: 0 20px 20px 0;
+    background: White;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.Lod a {
+    text-decoration: none;
+    background: white;
+}
+.ImgL {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 215px;
+    height: 110px;
+    margin: 5px;
+    border-radius: 20px 20px 0 0;
+    -webkit-border-radius: 20px 20px 0 0;
+    -moz-border-radius: 20px 20px 0 0;
+    -ms-border-radius: 20px 20px 0 0;
+    -o-border-radius: 20px 20px 0 0;
+}
+.Lod_Img_1 {
+    background-image: url(Img/Lodging/Lod1.jpg);
+}
+.Lod_Img_2 {
+    background-image: url(Img/Lodging/Lod2.jpg);
+}
+.Lod_Img_3 {
+    background-image: url(Img/Lodging/Lod3.jpg);
+}
+.Lod_Img_4 {
+    background-image: url(Img/Lodging/Lod4.jpg);
+}
+.Lod_Img_5 {
+    background-image: url(Img/Lodging/Lod5.jpg);
+}
+.Lod_Img_6 {
+    background-image: url(Img/Lodging/Lod6.jpg);
+}
+.Desc_Lod {
+    border-radius: 0 0 20px 20px;
+    padding-left: 20px;
+    font-size: 9px;
+    color: #000;
+    background: White;
+    -webkit-border-radius: 0 0 20px 20px;
+    -moz-border-radius: 0 0 20px 20px;
+    -ms-border-radius: 0 0 20px 20px;
+    -o-border-radius: 0 0 20px 20px;
+}
+.Desc_Lod h2 {
+    margin-bottom: 0;
+}
+.Desc_Lod p {
+    font-size: 1.4em;
+    margin: 6px 0 6px 0;
+    padding-top: 0px;
+}
+.fa-star {
+    color: #0065FC;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+.Plus {
+    padding: 4%;
+}
+
+/* ....................MostPop.............. */
+
+.Section_Most_Popular {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    background: #f2f2f2;
+    width: 29%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.PopCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Title_MostPop {
+    display: flex;
+    justify-content: space-between;
+}
+.Title_MostPop h2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-left: 8%;
+}
+.Title_MostPop i {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 1.5em;
+    width: 16%;
+    height: 57px;
+}
+
+/* ..........Pop.......... */
+
+.Pop {
+    border-radius: 20px;
+    margin-bottom: 30px;
+    background: White;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.Pop a {
+    display: flex;
+    background: white;
+    text-decoration: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.ImgMP {
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 122px;
+    margin: 5px 0 5px 5px;
+    border-radius: 20px 0 0 20px;
+    -webkit-border-radius: 20px 0 0 20px;
+    -moz-border-radius: 20px 0 0 20px;
+    -ms-border-radius: 20px 0 0 20px;
+    -o-border-radius: 20px 0 0 20px;
+}
+.Pop_Img_1 {
+    background-image: url(Img/Popular/Pop1.jpg);
+    background-size: 175%;
+    background-position: top -5px left -43px;
+}
+.Pop_Img_2 {
+    background-image: url(Img/Popular/Pop2.jpg);
+    background-size: 150%;
+    background-position: top -2px left -30px;
+}
+.Pop_Img_3 {
+    background-image: url(Img/Popular/Pop3.jpg);
+    background-size: 110%;
+    background-position: top -35px left -10px;
+}
+.Desc_Pop {
+    width: 75%;
+    font-size: 10px;
+    padding-left: 10px;
+    color: #000;
+    background: White;
+    border-radius: 0 20px 20px 0;
+    -webkit-border-radius: 0 20px 20px 0;
+    -moz-border-radius: 0 20px 20px 0;
+    -ms-border-radius: 0 20px 20px 0;
+    -o-border-radius: 0 20px 20px 0;
+}
+.Desc_Pop h2 {
+    font-weight: bold;
+    font-size: 1.35em;
+    margin-bottom: 6px;
+    padding-top: 2px;
+    width: 130px;
+}
+.Desc_Pop p {
+    font-size: 1.2em;
+    margin: 0 0 15px 0;
+    padding: 5px 5px 25px 0;
+}
+.fa-star {
+    color: #0065FC;
+    font-size: 1.2em;
+    padding-bottom: 0;
+}
+.Grey {
+    color: rgb(192, 192, 192);
+    padding-bottom: 0;
 }

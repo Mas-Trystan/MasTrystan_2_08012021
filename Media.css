@@ -318,7 +318,6 @@
 
     .NavResearch ul {
         display: flex;
-        justify-content: center;
         margin-bottom: 10px;
     }
     .NavResearch li {
@@ -385,7 +384,7 @@
     }
     .Pop {
         margin-right: 15px;
-        width: 34%;
+        width: 340px;
     }
 
 /* ......................Activite.................... */
@@ -397,12 +396,13 @@
         padding: 0;
         margin-bottom: 30px;
     }
-    .ActCards {border: 1px solid #000;
+    .ActCards {
         display: flex;
         width: 100%;
     }
     .Simple {
         margin: 0;
+        margin-bottom: 45px;
     }
     .Double {
         margin-left: 30px;
@@ -417,6 +417,7 @@
     .Bloc_Footer {
         flex-wrap: wrap;
         justify-content: center;
+        margin-top: 0;
     }
     .Footer {
         display: flex;

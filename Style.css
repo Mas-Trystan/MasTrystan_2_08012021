@@ -35,22 +35,22 @@
     height: 80px;
 }
 .Nav ul {
-    display: flex;
-    margin: 0;
-    padding-left: 0;
-    margin-right: 12.5%;
-    height: 80px;
-    list-style-type: none;
+display: flex;
+margin: 0;
+padding-left: 0;
+height: 80px;
+list-style-type: none;
+margin-right: 20px;
 }
 .Nav li {
     display: flex;
-    width: 150px;
+    width: 150%;
 }
 .Nav ul a {
     display: flex;
     justify-content: center;
     padding-top: 50px;
-    font-size: 14px;
+    font-size: 17px;
     text-decoration: none;
     color: #000;
     width: 150px; 
@@ -61,15 +61,15 @@
     border-top: 3px solid #0065FC;
 }
 .Inscription {
-    position: absolute;
-    top: 50px; right: 70px;
+    position: relative;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    padding-top: 50px;
+    margin-right: 5%;
 }
 .Inscription a {
     color: #0065FC;
-    font-size: 14px;
+    font-size: 17px;
     text-decoration: none;
 }
 
@@ -89,12 +89,12 @@
 }
 .TitleResearch h1 {
     margin: 50px 0 10px 0;
-    font-size: 1.25em;
+    font-size: 1.36em;
     width: 100%;
 }
 .TitleResearch p {
     margin: 0 0 20px 0;
-    font-size: .92em;
+    font-size: 1em;
 }
 
 /* ..........Form.......... */
@@ -124,12 +124,12 @@
 }
 .FormResearch input {
     border: 1px solid #f1f1f1;
-    width: 16%;
+    width: 225px;
     height: 50px;
 }
 .Btn {
     height: 50px;
-    width: 120px;
+    width: 140px;
     border: none;
     background: #0065FC;
     color: #F2F2F2;
@@ -160,7 +160,7 @@
 .NavResearch p {
     display: flex;
     flex-wrap: wrap;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: bolder;
     align-items: center;
     margin: 0;
@@ -173,18 +173,19 @@
     margin: 0;
     padding: 0;
 }
-.NavResearch li {
+.NavResearch li {border: 1px solid #000;
     font-family: "Raleway", sans-serif;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border: 2px solid #f1f1f1;
-    height: 45px;
+    border: 2px solid lightgray;
+    height: 55px;
     font-weight: bolder;
     margin-left: 40px;
-    padding: 10px 20px 10px 40px;
+    font-size: 1.1em;
+    padding: 10px 20px 10px 50px;
     border-radius: 50px 50px 50px 50px;
     -webkit-border-radius: 50px 50px 50px 50px;
     -moz-border-radius: 50px 50px 50px 50px;
@@ -202,8 +203,8 @@
     color: #0065FC;
     font-size: large;
     text-align: center;
-    width: 40px;
-    height: 45px;
+    width: 50px;
+    height: 55px;
     border-radius: 50%;
     padding: 15px 15px 15px 15px;
     -webkit-border-radius: 50%;
@@ -221,7 +222,7 @@
     display: flex;
     margin-top: 35px;
     margin-bottom: 40px;
-    font-size: .95em;
+    font-size: 1.04em;
 }
 .FooterResearch i {
     display: flex;
@@ -232,9 +233,8 @@
     height: 20px;
     width: 5px;
     padding-right: 10px;
-    margin-right: 5px;
+    margin-right: 15px;
     color: #0065FC;
-    background: #DEEBFF;
     font-size: 12px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -263,10 +263,10 @@
     -o-border-radius: 20px;
 }
 #Hébergements {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     padding-top: 20px;
-    padding-left: 4%;
-    font-size: 1.35em;
+    padding-left: 5%;
+    font-size: 1.5em;
 }
 .SectionLodging a {
     color: #000;
@@ -275,7 +275,7 @@
 .LodgingCards {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: space-around;
     flex-wrap: wrap;
     width: 100%;
 }
@@ -283,14 +283,15 @@
 /* ..........Lod.......... */
 
 .Lod {
-    width: 225px;
-    margin: 0 30px 30px 0;
+    width: 248px;
+    margin: 0 15px 20px 15px;
     background: White;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    box-shadow: 2px 5px 10px lightgray;
 }
 .Lod a {
     text-decoration: none;
@@ -300,7 +301,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 215px;
+    width: 238px;
     height: 110px;
     margin: 5px;
     border-radius: 20px 20px 0 0;
@@ -340,19 +341,20 @@
 }
 .Desc_Lod h2 {
     margin-bottom: 0;
+    font-size: 1.8em;
 }
 .Desc_Lod p {
-    font-size: 1.4em;
-    margin: 6px 0 6px 0;
+    font-size: 1.65em;
+    margin: 6px 0 10px 0;
     padding-top: 0px;
 }
 .fa-star {
     color: #0065FC;
-    font-size: 1.2em;
     margin-bottom: 10px;
 }
 .Plus {
-    padding: 4%;
+    padding: 5%;
+    padding-top: 3%;
 }
 
 /* ....................MostPop.............. */
@@ -384,15 +386,16 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    font-size: 1.2em;
+    font-weight: bold;
+    font-size: 1.4em;
     margin-bottom: 0;
     padding-top: 20px;
-    padding-left: 8%;
+    padding-left: 9%;
 }
 .Title_MostPop i {
     display: flex;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 30px;
     font-size: 1.5em;
     width: 16%;
     height: 57px;
@@ -408,6 +411,8 @@
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    box-shadow: 2px 5px 10px lightgray;
+    width: 82%;
 }
 .Pop a {
     display: flex;
@@ -422,7 +427,7 @@
 .ImgMP {
     background-repeat: no-repeat;
     width: 150px;
-    height: 122px;
+    height: 140px;
     margin: 5px 0 5px 5px;
     border-radius: 20px 0 0 20px;
     -webkit-border-radius: 20px 0 0 20px;
@@ -432,12 +437,12 @@
 }
 .Pop_Img_1 {
     background-image: url(Img/Popular/Pop1.jpg);
-    background-size: 175%;
-    background-position: top -5px left -43px;
+    background-size: 174.5%;
+    background-position: top -5px left -46px;
 }
 .Pop_Img_2 {
     background-image: url(Img/Popular/Pop2.jpg);
-    background-size: 150%;
+    background-size: 154%;
     background-position: top -2px left -30px;
 }
 .Pop_Img_3 {
@@ -448,7 +453,7 @@
 .Desc_Pop {
     width: 75%;
     font-size: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
     color: #000;
     background: White;
     border-radius: 0 20px 20px 0;
@@ -459,13 +464,13 @@
 }
 .Desc_Pop h2 {
     font-weight: bold;
-    font-size: 1.35em;
-    margin-bottom: 6px;
+    font-size: 1.70em;
+    margin-bottom: 0;
     padding-top: 2px;
-    width: 130px;
+    width: 85%;
 }
 .Desc_Pop p {
-    font-size: 1.2em;
+    font-size: 1.50em;
     margin: 0 0 15px 0;
     padding: 5px 5px 25px 0;
 }
@@ -495,24 +500,29 @@
 .ActCards {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     width: 100%;
 }
 
 /* .........Act.......... */
 
+.Simple {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 .Simple a {
     display: flex;
     flex-direction: column;
     text-decoration: none;
     color: #000;
     font-weight: bold;
-    margin-right: 40px;
 } 
 .Double {
     border-radius: 20px;
     flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 45px;
 }
 .Double a {
     display: flex;
@@ -522,10 +532,7 @@
     font-weight: bold;
 }
 .SpaceD {
-    margin-bottom: 50px;
-}
-.SpaceS {
-    margin-left: 40px;
+    margin-bottom: 45px;
 }
 .Act_Img_1 {
     background-image: url(Img/Activity/Act1.jpg);
@@ -533,7 +540,7 @@
     background-repeat: no-repeat;
     background-position: bottom -40px left -200px;
     border-radius: 20px 20px 0 0;
-    width: 280px;
+    width: 300px;
     height: 400px;
 }
 .Act_Img_2 {
@@ -542,7 +549,7 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px 20px 0 0;
-    width: 280px;
+    width: 300px;
     height: 150px;
 }
 .Act_Img_3 {
@@ -551,7 +558,7 @@
     background-repeat: no-repeat;
     background-position: top -0px left -10px;
     border-radius: 20px 20px 0 0;
-    width: 280px;
+    width: 300px;
     height: 150px;
 }
 .Act_Img_4 {
@@ -560,7 +567,7 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px 20px 0 0;
-    width: 280px;
+    width: 300px;
     height: 400px;
     -webkit-border-radius: 20px 20px 0 0;
     -moz-border-radius: 20px 20px 0 0;
@@ -573,7 +580,7 @@
     background-repeat: no-repeat;
     background-position: bottom -68px left -20px;
     border-radius: 20px 20px 0 0;
-    width: 280px;
+    width: 300px;
     height: 150px;
 }
 .Act_Img_6 {
@@ -582,11 +589,11 @@
     background-repeat: no-repeat;
     background-position: top -30px left -2px ;
     border-radius: 20px 20px 0 0;
-    width: 280px;
+    width: 300px;
     height: 150px;
 }
 .Desc_Act {
-    width: 280px;
+    width: 300px;
     height: 55px;
     font-size: 11px;
     color: #000;
